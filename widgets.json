@@ -1,0 +1,71 @@
+{
+  "capital_companion_maverick_top_stocks": {
+    "name": "Capital Companion Maverick Top Stocks",
+    "description": "Get current Maverick Top Stocks from Capital Companion",
+    "category": "stocks",
+    "searchCategory": "stocks",
+    "endpoint": "maverick-top-stocks",
+    "gridData": {
+      "w": 20,
+      "h": 5
+    },
+    "data": {
+      "table": {
+        "index": "symbol",
+        "showAll": true,
+        "columnsDefs": [
+          {
+            "headerName": "Ticker",
+            "field": "symbol",
+            "chartDataType": "category"
+          },
+          {
+            "headerName": "Name",
+            "field": "name",
+            "chartDataType": "category"
+          },
+          {
+            "headerName": "Open",
+            "field": "open",
+            "chartDataType": "series"
+          },
+          {
+            "headerName": "High",
+            "field": "high",
+            "chartDataType": "series"
+          },
+          {
+            "headerName": "Low",
+            "field": "low",
+            "chartDataType": "series"
+          },
+          {
+            "headerName": "Close",
+            "field": "close",
+            "chartDataType": "series"
+          },
+          {
+            "headerName": "Volume",
+            "field": "volume",
+            "chartDataType": "series"
+          },
+          {
+            "headerName": "Average 30-Day Volume",
+            "field": "AVG_VOL_30_D",
+            "chartDataType": "series"
+          },
+          {
+            "headerName": "Average Daily Range Percentage",
+            "field": "ADR_PCT",
+            "chartDataType": "series"
+          },
+          {
+            "headerName": "Average True Range",
+            "field": "ATR",
+            "chartDataType": "series"
+          }
+        ]
+      }
+    }
+  }
+}
