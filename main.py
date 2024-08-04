@@ -44,7 +44,7 @@ def get_maverick_top_stocks():
     response = requests.get("https://capitalcompanion.io/maverick-top-stocks")
 
     if response.status_code == 200:
-        return response.json()
+        return response.json()["maverick_stocks"]
 
     print(f"Request error {response.status_code}: {response.text}")
     return JSONResponse(content={"error": response.text}, status_code=response.status_code)
