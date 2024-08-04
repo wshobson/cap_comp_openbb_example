@@ -1,7 +1,7 @@
 from pathlib import Path
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import JSONResponse
+from fastapi.responses import JSONResponse, RedirectResponse
 
 import requests
 import json
@@ -28,8 +28,13 @@ app.add_middleware(
 
 
 @app.get("/")
-def read_root():
-    return {"Info": "Maverick Top Stocks Integration with OpenBB Terminal Pro"}
+def docs_redirect():
+    return RedirectResponse(url="/docs")
+
+
+@app.get("/health")
+def health_check():
+    return {"status": "ok"}
 
 
 @app.get("/widgets.json")

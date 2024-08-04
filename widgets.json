@@ -12,7 +12,7 @@
     "data": {
       "table": {
         "index": "symbol",
-        "showAll": true,
+        "showAll": false,
         "columnsDefs": [
           {
             "headerName": "Ticker",
