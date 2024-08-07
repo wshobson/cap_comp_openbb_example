@@ -6,7 +6,7 @@ This repository contains example code for integrating a custom backend with [Ope
 
 The accompanying article for this repo can be found here:
 
-- [Elevate Your Trading: Integrating Custom Data with OpenBB Terminal Pro]()
+- [Elevate Your Trading: Integrating Custom Data with OpenBB Terminal Pro](https://sethhobson.com/2024/08/elevate-your-trading-integrating-custom-data-with-openbb-terminal-pro/)
 
 ## Features
 
@@ -24,7 +24,7 @@ The accompanying article for this repo can be found here:
 1. Clone this repository:
 
 ```bash
-git clone 
+git clone https://github.com/wshobson/cap_comp_openbb_example.git
 ```
 
 2. Create a virtual env and install the required dependencies:
