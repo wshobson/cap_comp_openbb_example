@@ -67,6 +67,10 @@ To create your own custom widgets:
 - [OpenBB](https://openbb.co/) for providing the Terminal Pro platform and custom backend integration feature
 - [Capital Companion](https://capitalcompanion.ai/) for the Maverick Top Stocks data used in this example
 
+## Public Usage
+
+This API is currently running [here](https://cap-comp-openbb-example.onrender.com). You are welcome to use it in your own Terminal Pro dashboards.
+
 ## Disclaimer
 
 This code is for educational purposes only. Always ensure you have the necessary permissions and comply with terms of service when integrating third-party data into your applications.
